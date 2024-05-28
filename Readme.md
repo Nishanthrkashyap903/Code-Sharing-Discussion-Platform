@@ -32,5 +32,6 @@ The Code Sharing and Discussion Platform is a comprehensive solution designed to
 - Go to `src/java/com/ooadproj/project` directory and open `ProjectApplication.java` file
 - And Run the above file as shown in the screenshot 
 <img src="images/ProjectInit.png" alt="Platform Overview" width="600" height="400">
+
 - The project is running in `http://localhost:8080`
 <img src="images/Output.png" alt="Platform Overview" width="600" height="400">
