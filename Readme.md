@@ -12,13 +12,25 @@ The Code Sharing and Discussion Platform is a comprehensive solution designed to
 
 ## Installation Process
 ### Prerequisites
-- Java Development Kit (JDK) 8 or higher
+- Download the latest Java Development Kit version 
 - Apache Maven
-- MySQL or any preferred SQL database
-- IDE (e.g., IntelliJ IDEA, Eclipse)
+- MySQL Database
+- IDE (e.g.VS code, IntelliJ IDEA, Eclipse)
 
 ### Steps
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/Nishanthrkashyap903/Code-Sharing-Discussion-Platform.git
    cd Code-Sharing-Discussion-Platform-master
+
+2. **Configure Database**
+- Go to `src/main/resources` directory 
+- Change the `DatabaseName` by creating a new Database in mysql server , Change the `databaseUserName`  , `databasePassword`  in `application.properties.sample` 
+- Rename the file `application.properties.sample` to `application.properties`  
+
+3. **Run The Project**
+- Go to `src/java/com/ooadproj/project` directory and open `ProjectApplication.java` file
+- And Run the above file as shown in the screenshot 
+![Run the file](images/ProjectInit.png)
+- The project is running in `http://localhost:8080`
+![Project output](images/Output.png)
